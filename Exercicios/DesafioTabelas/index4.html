@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio De Tabelas - Parte 4</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            margin: auto;
+        }
+
+        table caption{
+            padding: 10px 0px;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        table th,td {
+            border: 1px solid black;
+            padding: 7px;
+            text-align: center;
+        }
+        .destaque {
+            background-color: gray;
+            font-weight: bolder;
+            color: white;
+        }
+        .res {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio Da Tabela - Parte 2</h1>
+    <table>
+        <caption>Enzo Gabriel</caption>
+        <thead class="destaque">
+            <tr>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Media</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                
+                <td>Matematica</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>6</td>
+                <td>2</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>8</td>
+                <td>9</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0</td>
+                <td>10</td>
+                <td>5</td>
+            </tr>
+            <tr class="destaque">
+                <th class="res" colspan="4">Média De Exatas</th>
+                <td>6,5</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>10</td>
+                <td>4</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>2</td>
+                <td>1</td>
+                <td>1.5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="destaque">
+                <th class="res" colspan="4">Média De Humanas</th>
+                <td>4,25</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

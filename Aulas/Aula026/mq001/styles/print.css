@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Estilização Para Impressora */
+
+* {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr {
+    display: none;
+}
+
+html {
+    width: 100%;
+}
+
+nav {
+    display: none;
+}
+
+article {
+    text-justify: 10px;
+    line-height: 25px;
+}
+
+article::after{
+    content: 'Murilinho W.w';
+}

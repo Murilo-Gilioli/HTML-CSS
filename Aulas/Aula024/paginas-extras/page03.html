@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina De Teste 3</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            height: 400px;
+            width: 400px;
+            position: relative;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead {
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        tfoot {
+            background-color: gray;
+            color: white;
+        }
+        .numero {
+            text-align: right;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso De Tabelas Grandes</h1>
+    <!--
+        Anatomia De Tabelas Grandes
+        Table
+            Caption
+            Thead
+                tr,td,th
+            Tbody
+                tr,td,th
+            Tfoot
+                tr,td,th
+
+            TH: Titulo Da Tabela
+            TD: Dado Da Tabela
+    -->
+    <table>
+        <caption>Populaçao das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px">Populaçao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="numero">49.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.160.791</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="numero">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 873 943</td>
+            </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="numero">11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="numero">11 377 239</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total De Habitantes</th>
+                <td class="numero"><strong>126.029.922</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

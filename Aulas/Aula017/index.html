@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1em;
+
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas:
+            em, ex, rem, vw, %
+
+            (Fontes Geralmente tem o Tamanho Padrao de 16px)
+            (Recomendaçoes: Usar PX e EM em SITES!)
+            16px Geralmente = 1em;
+            */
+            
+            /*
+            font-weigth: (lighter , normal , bold , bolder) ou (100 ao 900);
+            font-style: italic;
+            text-decoration: underline;
+
+
+            Weigth: Peso;
+            Width: Largura;
+            Height: Altura;
+            */
+        }
+        h1{
+            font: italic bolder 3em sans-serif;
+
+            /* shorthand font
+            Forma Padrao:
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            Forma Reduzida:
+            font-style -> font-weigth -> font-size -> font-family;
+            font: italic bolder 3em sans-serif;
+            */
+        }
+        h2{
+            font: bold 2em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando Com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vel enim quas repellendus iste omnis veritatis ratione deleniti explicabo eius quidem odio earum illo voluptatibus, fugiat ea, quos distinctio provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias ex facilis soluta enim, fuga harum iste at ut, aspernatur accusantium sed itaque? Velit asperiores nam nihil voluptates sequi illum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A tempore, consequatur non hic repudiandae odit velit quo ullam vitae ut animi dignissimos, dolore nesciunt harum perferendis itaque nam eius commodi.</p>
+    <h2>Subtitulo do Exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat aliquam impedit excepturi labore cum! Corrupti, laborum tempore dolores repellat praesentium labore sit neque, aut, totam maiores vitae. Qui, delectus magni!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum totam eligendi perspiciatis dolore asperiores maxime voluptate rem, commodi id quisquam itaque reiciendis eos numquam iusto adipisci quam repellendus autem cum.</p>
+</body>
+</html>

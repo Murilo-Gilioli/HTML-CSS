@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* Estilização Da Tela */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: lightgray;
+
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;    
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+nav ul {
+    background-color: gray;
+    list-style-type: none;
+}
+
+article {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+article h2 {
+    padding: 10px;
+}
+
+article p {
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 20px;
+    padding: 10px;
+}
